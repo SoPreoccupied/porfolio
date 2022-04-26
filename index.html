@@ -6,36 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
 </head>
 <header>
     <nav>
-        <!-- Profile Pic and Navigation bar -->
+       Placeholder Text <!-- Profile Pic and Navigation bar (maybe hamburger if I have time)-->
     </nav>
 </header>
 <body>
-    <section id="about"></section>
+    <section id="about">
     <h1>Gabrielle Walsh</h1>
-    <p>I am a software engineer with a background in childcare and healthcare. 
-        My calling is to tackle accessibility issues by using technology to facilitate individualized experiences.
+    <div id="triangle" class="shapes">
+        <p id="paragraphTriangle" class="paragraphShapes">Hey! I'm so glad you're here :)</p>
+    </div>
+    <h2>I am a software engineer with a background in childcare and healthcare. 
+        My mission is to tackle accessibility issues by using technology to facilitate individualized experiences.
          I bring my passion for helping promote functionality into each environment I am a part of. 
-         Thanks to my background in childcare, healthcare, and technology along with my personal experience growing up medically complex I am empowered to approach each project with an insider's perspective.</p>
-    <p></p>
-        <div id="triangle" class="shapes">
-            <p class="paragraphShapes">Hey! I'm so glad you're here.</p>
-        </div>
-    <section id="projects"></section>
+         Thanks to my background in childcare, healthcare, and technology along with my personal experience growing up medically complex I am empowered to approach each project with an insider's perspective.</h2>
+    </p>
+    </section>
+    <section id="projects">
         <div id="square" class="shapes">
-            <p class="paragraphShapes">Here are some of the projects I'm most excited about.</p>
+            <p id="paragraphSquare" class="paragraphShapes">Here are some recent projects I'm most excited about.</p>
         </div>
-    <section id="contactPage"></section>
+        <div id="projectCarosel">
+            <h3>Projects</h3> <!--Will likely delete-->
+            <!-- Project carosel goes here. -->
+        </div>
+    </section>
+    <section id="contactPage">
         <div id="circle" class="shapes">
-            <p class="paragraphShapes">What might I help you create?</p>
+            <p id="paragraphCircle" class="paragraphShapes">What might I help you create?</p>
         </div>
-
-
+    <div class="contactForm">
+    <h3>Let's get in touch!</h3>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+        <br><br>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+        <br><br>
+        <label for="subject">Subject</label>
+        <br><br>
+        <textarea id="subject" name="subject" placeholder="Reason for reaching out" rows="5" cols="30"></textarea>
+        <br><br>
+        <input type="button" class="submitButton" onclick="formSubmit()" value="Submit">
+        <!--I'm trying to raise the submit button(css should be rainbow gradient) in mobile-->
+    </div>  
+    </section>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

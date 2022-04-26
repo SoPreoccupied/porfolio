@@ -1,3 +1,131 @@
 * {
     font-family: 'Lexend Deca', sans-serif;
 }
+
+body {
+    background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
+    background-size: 100% 100%;
+    min-height: 100%;
+    resize: both; 
+    overflow: scroll;  
+    background-repeat: no-repeat;
+}
+/* Make each paragraph go inside of their parent shape */
+
+
+@media (min-width:320px)  {
+     /* smartphones, iPhone*/ 
+
+    nav {
+        border-color: green;
+        border: 5em;
+     }
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 4em;
+        text-shadow: .06em .06em black;
+       
+    }
+    
+    h2 {
+        color: white;
+        text-align: center;
+        margin: 1em;
+        backdrop-filter: blur(1em);
+        padding: 1em;
+        border-radius: 2em;
+        text-shadow: .06em .06em black;
+
+    }
+
+    #triangle {
+        z-index: -1;
+        display: flex;
+        float: auto;
+        object-fit: fill;
+        background-image: url("assets/blueTriangle.png");
+        background-position: left;
+        background-size: 100%;
+        height: 20em;
+        width: 20em;
+        background-repeat: no-repeat;
+        right: -75%;
+      }
+    #paragraphTriangle {
+    font-weight: bold;
+    font-size: 2em;
+    color: orange;
+    align-content: flex-start;
+    position: absolute;
+    margin: 6em;
+    align-self: center;
+    width: 120px;
+    margin-left: 7.3em;
+    margin-top: 8em;
+    text-shadow: .06em .06em black;
+    }
+ 
+    #square {
+        display: flex;
+        position: relative;
+        background-image: url("assets/yellowSquare.png");
+        background-position: center;
+        background-size: 100%;
+        height: 20em;
+        width: 20em;
+        background-repeat: no-repeat;
+  
+    }
+    #paragraphSquare {
+        font-weight: bold;
+        font-size: 2em;
+        color: purple;
+        align-content: flex-start;
+        position: absolute;
+        margin: 6em;
+        align-self: center;
+        width: 120px;
+        text-shadow: .06em .06em black;
+    }
+ 
+    #circle {
+        display: flex;
+        position: relative;
+        background-image: url("assets/redCircle.png");
+        background-position: center;
+        background-size: 100%;
+        height: 20em;
+        width: 20em;
+        background-repeat: no-repeat;
+    }
+    #paragraphCircle {
+        font-weight: bold;
+        font-size: 2em;
+        color: green;
+        align-content: flex-start;
+        position: absolute;
+        margin: 6em;
+        align-self: center;
+        width: 120px;
+        margin-left: 7em;
+        text-shadow: .06em .06em black;
+    }
+    .contactForm {
+        color: white;
+        text-shadow: .06em .06em black;
+        text-align: center;
+    }
+
+    .submitButton {
+        margin-bottom: 5em;
+    }
+ }
+
+
+/* @media (min-width:481px)  { portrait e-readers (Nook/Kindle) }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+/* @media (min-width:961px)  { tablet, landscape iPad, lo-res laptops ands desktops } */
+/* @media (min-width:1025px) { big landscape tablets, laptops, and desktops } */
+/* @media (min-width:1281px) { hi-res laptops and desktops } */ 
