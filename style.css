@@ -2,127 +2,115 @@
     font-family: 'Lexend Deca', sans-serif;
 }
 
-body {
+/* body {
     background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
     background-size: 100% 100%;
     min-height: 100%;
     resize: both; 
     overflow: scroll;  
     background-repeat: no-repeat;
-}
+    background-attachment: fixed;
+    
+} */
 /* Make each paragraph go inside of their parent shape */
 
 
 @media (min-width:320px)  {
-     /* smartphones, iPhone*/ 
+     /* smartphones, iPhone*/
+     body {
+        background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
+        background-size: 100% 100%;
+        min-height: 100%;
+        resize: both; 
+        overflow: scroll;  
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
 
-    nav {
-        border-color: green;
-        border: 5em;
-     }
+    /* #profilePicture {
+    height: 200px;
+    margin-top: 15px;
+    border: 10px solid transparent;
+    background-image: radial-gradient(circle at top right,(blue)
+    , hsl(204, 0%, 100%,0.7), (orange));
+    background-origin: border-box;
+    border-radius: 50% 0%;
+    margin: 50px 0px 0px 0px;
+    } */
 
     h1 {
         color: white;
         text-align: center;
         font-size: 4em;
-        text-shadow: .06em .06em black;
-       
+        text-shadow: .06em .06em black;  
     }
-    
     h2 {
         color: white;
-        text-align: center;
+        text-align: center;;
         margin: 1em;
         backdrop-filter: blur(1em);
         padding: 1em;
         border-radius: 2em;
         text-shadow: .06em .06em black;
-
     }
 
+    .shapes {
+        background-repeat: no-repeat;
+        display: flex;
+        background-size: 100%;
+        height: 20em;
+        width: 20em;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     #triangle {
-        z-index: -1;
-        display: flex;
-        float: auto;
-        object-fit: fill;
         background-image: url("assets/blueTriangle.png");
-        background-position: left;
-        background-size: 100%;
-        height: 20em;
-        width: 20em;
-        background-repeat: no-repeat;
-        right: -75%;
-      }
-    #paragraphTriangle {
-    font-weight: bold;
-    font-size: 2em;
-    color: orange;
-    align-content: flex-start;
-    position: absolute;
-    margin: 6em;
-    align-self: center;
-    width: 120px;
-    margin-left: 7.3em;
-    margin-top: 8em;
-    text-shadow: .06em .06em black;
+        margin: 1em;
     }
- 
     #square {
-        display: flex;
-        position: relative;
         background-image: url("assets/yellowSquare.png");
-        background-position: center;
-        background-size: 100%;
-        height: 20em;
-        width: 20em;
-        background-repeat: no-repeat;
-  
+        float: right;
+        margin-right: 1.5em;
+    }
+    #circle {
+        background-image: url("assets/redCircle.png");
+        margin-left: 1em;
+    }
+
+    .paragraphShapes {
+        font-weight: bold;
+        font-size: 2em;
+        position: absolute;
+        width: 120px;
+        margin: 6em;
+        text-align: center;
+    }
+    #paragraphTriangle {
+        color: orange;
+        text-shadow: .06em .06em black;
+        margin-top: 5.5em;
+
     }
     #paragraphSquare {
-        font-weight: bold;
-        font-size: 2em;
         color: purple;
-        align-content: flex-start;
-        position: absolute;
-        margin: 6em;
-        align-self: center;
-        width: 120px;
-        text-shadow: .06em .06em black;
-    }
- 
-    #circle {
-        display: flex;
-        position: relative;
-        background-image: url("assets/redCircle.png");
-        background-position: center;
-        background-size: 100%;
-        height: 20em;
-        width: 20em;
-        background-repeat: no-repeat;
+        text-shadow: .04em .04em black;
     }
     #paragraphCircle {
-        font-weight: bold;
-        font-size: 2em;
         color: green;
-        align-content: flex-start;
-        position: absolute;
-        margin: 6em;
-        align-self: center;
-        width: 120px;
-        margin-left: 7em;
         text-shadow: .06em .06em black;
     }
+
     .contactForm {
         color: white;
         text-shadow: .06em .06em black;
         text-align: center;
     }
-
     .submitButton {
         margin-bottom: 5em;
     }
  }
-
 
 /* @media (min-width:481px)  { portrait e-readers (Nook/Kindle) }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
