@@ -102,14 +102,12 @@
         text-shadow: .06em .06em black;
     }
 
-    .contactForm {
+    .socials {
         color: white;
         text-shadow: .06em .06em black;
         text-align: center;
     }
-    .submitButton {
-        margin-bottom: 5em;
-    }
+
  }
 
 /* @media (min-width:481px)  { portrait e-readers (Nook/Kindle) }
