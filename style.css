@@ -1,9 +1,8 @@
+/* Mobile first design */
 * {
     font-family: 'Lexend Deca', sans-serif;
 }
-
-     /* smartphones, iPhone*/
-     body {
+        body {
         background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
         background-size: 100% 100%;
         min-height: 100%;
@@ -11,8 +10,8 @@
         overflow: scroll;  
         background-repeat: no-repeat;
         background-attachment: fixed;
-        
-    }
+            
+        }
 
     #aboutContainer {
         display: flex;
@@ -20,16 +19,35 @@
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
-
+        margin: 5em;
         }
+
+    #carouselMain {
+        width: 325px;
+    }
+
+     #projectsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: no-wrap;
+        align-items: center;
+        border-radius: 2em;
+        }
+
+        /* .carousel-item {
+            height: 100px;
+            overflow: hidden;
+            width: 100%;
+        }*/
 
     #profilePicture {
     height: 15em;
     border: 10px solid transparent;
-    background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.5),hsl(234, 100%, 50%));
+    background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.2),hsl(234, 100%, 50%));
     background-origin: border-box; 
     border-radius: 50% 0%;
-    margin: 5em;
+    margin: 3em 5em;
     }
 
     h1 {
@@ -41,12 +59,10 @@
     h2 {
         color: white;
         text-align: center;;
-        margin: 1em;
-        backdrop-filter: blur(1em);
+        backdrop-filter: blur(2em);
         padding: 1em;
         border-radius: 2em;
         text-shadow: .06em .06em black;
-        margin-bottom: 3em;
     }
 
     .shapes {
@@ -58,20 +74,17 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin: 4em;
     }
     #triangle {
         background-image: url("assets/blueTriangle.png");
-        margin-left: 2em;
-        margin-top: 7em;
     }
     #square {
         background-image: url("assets/yellowSquare.png");
-        float: right;
-        margin-right: 1.5em;
     }
     #circle {
         background-image: url("assets/redCircle.png");
-        margin-left: 1.7em;
+        margin-left: 1.5em;
     }
 
     .paragraphShapes {
@@ -156,13 +169,20 @@
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
+        }
+    #projectsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
 
         }
 
     #profilePicture {
     height: 15em;
     border: 10px solid transparent;
-    background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.5),hsl(234, 100%, 50%));
+    background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.2),hsl(234, 100%, 50%));
     background-origin: border-box; 
     border-radius: 50% 0%;
     margin: 5em;
@@ -179,7 +199,7 @@
         color: white;
         text-align: center;;
         margin: 3em 7em;
-        backdrop-filter: blur(1em);
+        backdrop-filter: blur(2em);
         padding: 1em;
         border-radius: 2em;
         text-shadow: .06em .06em black;
@@ -233,7 +253,8 @@
     #carouselMain {
         width: 23.4em;
         text-align: center;
-        margin: 20em 0 3em 0;
+        margin: 3em 0 3em 0;
+
     }
 
     .socials {
