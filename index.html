@@ -17,7 +17,8 @@
         </nav>
     </header>
     <section id="about">
-    <h1>Gabrielle Walsh</h1>
+    <h1 id="person">Gabrielle Walsh</h1>
+    <!-- HEX: #36C5F0 In light mode -->
     <div id="triangle" class="shapes">
         <p id="paragraphTriangle" class="paragraphShapes">Hey! I'm so glad you're here :)</p>
     </div>
@@ -28,28 +29,76 @@
     </p>
     </section>
     <section id="projects">
+        <!-- HEX: #ECB22E In light mode -->
         <div id="square" class="shapes">
             <p id="paragraphSquare" class="paragraphShapes">Recent projects I'm excited about.</p>
-        </div>
-        <div id="projectCarosel">
-            <!-- Project carosel goes here. -->
-        </div>
+        
+         <!-- Project carosel goes here. -->
+         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- Photo by Robo Wunderkind on Unsplash -->
+                <img src="noita-digital-QZX8jbK1xEw-unsplash (1).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+        
+            
     </section>
     <!-- align segments in div in same row with a flexbox -->
     <section id="contactPage">
+    <!-- HEX: #E01E5A In light mode -->
         <div id="circle" class="shapes">
             <p id="paragraphCircle" class="paragraphShapes">What can I help you create?</p>
         </div>
     <div class="socials">
-    <h3>Let's get in touch!</h3>
+    <!-- <h3>Let's get in touch!</h3> -->
+    <span>
         <!-- Linkedin -->
-            <a style="color: #0e76a8" href="https://www.linkedin.com/in/gabrielle-walsh-a9b9a4233/" role="button" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <!-- #0e76a8 In light mode -->
+            <a style="color: #FFF" href="https://www.linkedin.com/in/gabrielle-walsh-a9b9a4233/" role="button" target="_blank"><i class="fab fa-linkedin-in fa-xl"></i></a>
         <!-- Google -->
-            <a style="color: #dd4b39" href="mailto:gabmwalsh@gmail.com" role="button" target="_blank"><i class="fab fa-google"></i></a>
+        <!-- #dd4b39 In light mode -->
+            <a style="color: #FFF" href="mailto:gabmwalsh@gmail.com" role="button" target="_blank"><i class="fab fa-google fa-xl"></i></a>
         <!-- Github -->
-            <a style="color: #4078c0" href="https://github.com/SoPreoccupied" role="button" target="_blank"><i class="fab fa-github"></i></a>
+        <!-- #4078c0 In light mode -->
+            <a style="color: #FFF" href="https://github.com/SoPreoccupied" role="button" target="_blank"><i class="fab fa-github fa-xl"></i></a>
         <!-- Slack -->
-            <a style="color: #E01E5A" href="https://app.slack.com/client/T0351JZQ0/D039PJQ2T6Y" role="button" target="_blank"><i class="fab fa-slack-hash"></i></a>
+        <!-- #4A154B In light mode -->
+            <a style="color: #FFF" href="https://app.slack.com/client/T0351JZQ0/D039PJQ2T6Y" role="button" target="_blank"><i class="fab fa-slack-hash fa-xl"></i></a>
+    </span>
     </div>  
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

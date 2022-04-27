@@ -41,6 +41,7 @@
 
     h1 {
         color: white;
+        margin: 1em;
         text-align: center;
         font-size: 4em;
         text-shadow: .06em .06em black;  
@@ -106,6 +107,7 @@
         color: white;
         text-shadow: .06em .06em black;
         text-align: center;
+        margin: 2em;
     }
 
  }
