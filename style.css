@@ -28,23 +28,20 @@
         
     }
 
-    /* #profilePicture {
-    height: 200px;
-    margin-top: 15px;
+    #profilePicture {
+    height: 15em;
     border: 10px solid transparent;
-    background-image: radial-gradient(circle at top right,(blue)
-    , hsl(204, 0%, 100%,0.7), (orange));
-    background-origin: border-box;
+    background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.5),hsl(234, 100%, 50%));
+    background-origin: border-box; 
     border-radius: 50% 0%;
-    margin: 50px 0px 0px 0px;
-    } */
+    margin: 5em;
+    }
 
     h1 {
         color: white;
-        margin: 1em;
         text-align: center;
         font-size: 4em;
-        text-shadow: .06em .06em black;  
+        text-shadow: .06em .06em black; 
     }
     h2 {
         color: white;
@@ -54,6 +51,7 @@
         padding: 1em;
         border-radius: 2em;
         text-shadow: .06em .06em black;
+        margin-bottom: 3em;
     }
 
     .shapes {
@@ -68,7 +66,8 @@
     }
     #triangle {
         background-image: url("assets/blueTriangle.png");
-        margin: 1em;
+        margin-left: 2em;
+        margin-top: 5.8em;
     }
     #square {
         background-image: url("assets/yellowSquare.png");
@@ -77,7 +76,7 @@
     }
     #circle {
         background-image: url("assets/redCircle.png");
-        margin-left: 1em;
+        margin-left: 1.7em;
     }
 
     .paragraphShapes {
@@ -91,7 +90,7 @@
     #paragraphTriangle {
         color: orange;
         text-shadow: .06em .06em black;
-        margin-top: 5.5em;
+        margin-top: 5em;
 
     }
     #paragraphSquare {
@@ -106,10 +105,14 @@
     .socials {
         color: white;
         text-shadow: .06em .06em black;
-        text-align: center;
-        margin: 2em;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        margin: 4em 2.5em 6em 1em;
     }
-
+    /* a:hover {
+        image-decoration: underline;
+    } */
  }
 
 /* @media (min-width:481px)  { portrait e-readers (Nook/Kindle) }
