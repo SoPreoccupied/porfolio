@@ -2,8 +2,6 @@
 * {
     font-family: 'Lexend Deca', sans-serif;
 }
-
-
         body {
         background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
         background-size: 100% 100%;
@@ -13,9 +11,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-color: black;
-            
-        }
-
+    }
     #aboutContainer {
         display: flex;
         flex-direction: row;
@@ -23,20 +19,17 @@
         flex-wrap: wrap;
         align-items: center;
         margin: 5em 5em 0 5em;
-        }
-
+    }
     #carouselMain {
         width: 325px;
     }
-
      #projectsContainer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         border-radius: 2em;
-        }
-
+    }
     #profilePicture {
     height: 15em;
     border: 10px solid transparent;
@@ -45,7 +38,6 @@
     border-radius: 50% 0%;
     margin: 3em 5em;
     }
-
     h1 {
         color: white;
         text-align: center;
@@ -60,7 +52,6 @@
         border-radius: 2em;
         text-shadow: .06em .06em black;
     }
-
     .shapes {
         background-repeat: no-repeat;
         display: flex;
@@ -82,7 +73,6 @@
         background-image: url("assets/redCircle.png");
         margin-left: 1.5em;
     }
-
     .paragraphShapes {
         font-weight: bold;
         font-size: 2em;
@@ -94,7 +84,6 @@
         color: orange;
         text-shadow: .06em .06em black;
         margin-top: 5em;
-
     }
     #paragraphSquare {
         color: purple;
@@ -104,7 +93,6 @@
         color: green;
         text-shadow: .06em .06em black;
     }
-
     h4 {
         color: white;
         text-align: center;
@@ -120,13 +108,9 @@
         justify-content: center;
         margin: 4em 2.5em 6em 1em;
     }
-
     .skillSet i {
         font-size: 12vw;
     }
-
-
-
     .socials {
         color: white;
         text-shadow: .06em .06em black;
@@ -136,65 +120,19 @@
         padding-inline-start: 0;
         margin: 4em auto 6em auto;
     }
-
     .socials li {
         margin: 0;
         padding: 0;
     }
-
     .socials li i {
         font-size: 12vw;
         margin: 0;
     }
 
-    /* #switcher {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-      #switcher li {
-        float: left;
-        width: 30px;
-        height: 30px;
-        margin: 0 15px 15px 0;
-        border-radius: 30px;
-        border: 3px solid black;
-      } */
-      
-      /* #darkButton {
-        background: gray;
-      }
-      #lightButton {
-        background: white;
-      } */
-
-
-/* @media (min-width:481px)  { portrait e-readers (Nook/Kindle) }
-
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-
+    
  /* { tablet, landscape iPad, lo-res laptops ands desktops } */
 @media (min-width:961px) {
 
-    body {
-        background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
-        background-size: 100% 100%;
-        min-height: 100%;
-        resize: both; 
-        overflow: scroll;  
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-color: black;
-    }
-
-    #aboutContainer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        }
     #projectsContainer {
         display: flex;
         flex-direction: row;
@@ -202,120 +140,56 @@
         flex-wrap: wrap;
         align-items: center;
         margin-top: 25em;
-        }
-
-    #profilePicture {
-    height: 21em;
-    border: 15px solid transparent;
-    background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.2),hsl(234, 100%, 50%));
-    background-origin: border-box; 
-    border-radius: 50% 0%;
-    margin: 5em;
     }
-
+    #profilePicture {
+        height: 21em;
+        border: 15px solid transparent;
+    }
     h1 {
-        color: white;
-        text-align: center;
         font-size: 6em;
-        text-shadow: .06em .06em black;
         flex-grow: 2; 
     }
     h2 {
-        color: white;
-        text-align: center;;
-        margin: -2em 15em 7em 14em;
-        backdrop-filter: blur(2em);
-        padding: 1em;
-        border-radius: 2em;
-        text-shadow: .06em .06em black;
+        margin: 1em 15em 7em 14em;
     }
-    
     .shapes {
-        background-repeat: no-repeat;
-        display: flex;
-        background-size: 100%;
         height: 25em;
         width: 25em;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
     }
     #triangle {
-        background-image: url("assets/blueTriangle.png");
-        margin: 9em 0 0 1em;
+        margin: 5em 0 0 1em;
     }
     #square {
-        background-image: url("assets/yellowSquare.png");
-        
+        margin-left: 8em;
     }
     #circle {
-        background-image: url("assets/redCircle.png");
-        margin-left: 12em;
-    }
-    .paragraphShapes {
-        font-weight: bold;
-        font-size: 2em;
-        position: absolute;
-        width: 120px;
-        margin: 6em;
-        text-align: center;
-    }
-    #paragraphTriangle {
-        color: orange;
-        text-shadow: .06em .06em black;
-        margin-top: 5em;
-
+        margin-left: 11em;
     }
     #paragraphSquare {
-        color: purple;
-        text-shadow: .04em .04em black;
+        font-size: 2.2em;
     }
     #paragraphCircle {
-        color: green;
-        text-shadow: .06em .06em black;
+        font-size: 2.4em;
+        position: absolute;
     }
     #carouselContainer {
         width: 50em;
-        text-align: center;
         margin: 3em 5em 3em 0;
     }
-
     #contactsContainer {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        /* might need no wrap */
-        flex-wrap: wrap;
-        
         align-items: baseline;
         margin: 0 5em 2em 5em;
     }
-    li {
-        display: flex;
-        align-self: stretch;
-    }
-
     .skillSet i, .socials li i {
         font-size: 3em;
     }
-
     .socials li i {
         margin: 20px;
     }
-
     h4 {
-        color: white;
         text-align: left;
         font-size: 4em;
-        text-shadow: .06em .06em black; 
         margin: 7em 0 0 2.7em;
     }
-    .socials {
-        color: white;
-        text-shadow: .06em .06em black;
-        list-style-type: none;
-        /* margin: 4em 2.5em 5em 1em; */
-    }
 }
-/* @media (min-width:1025px) { big landscape tablets, laptops, and desktops } */
-/* @media (min-width:1281px) { hi-res laptops and desktops } */ 
