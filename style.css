@@ -10,6 +10,7 @@
         overflow: scroll;  
         background-repeat: no-repeat;
         background-attachment: fixed;
+        background-color: black;
             
         }
 
@@ -19,7 +20,7 @@
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
-        margin: 5em;
+        margin: 5em 5em 0 5em;
         }
 
     #carouselMain {
@@ -30,16 +31,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        flex-wrap: no-wrap;
         align-items: center;
         border-radius: 2em;
         }
-
-        /* .carousel-item {
-            height: 100px;
-            overflow: hidden;
-            width: 100%;
-        }*/
 
     #profilePicture {
     height: 15em;
@@ -160,7 +154,7 @@
         overflow: scroll;  
         background-repeat: no-repeat;
         background-attachment: fixed;
-        
+        background-color: black;
     }
 
     #aboutContainer {
@@ -176,11 +170,10 @@
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-
         }
 
     #profilePicture {
-    height: 15em;
+    height: 21em;
     border: 10px solid transparent;
     background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.2),hsl(234, 100%, 50%));
     background-origin: border-box; 
@@ -198,7 +191,7 @@
     h2 {
         color: white;
         text-align: center;;
-        margin: 3em 7em;
+        margin: -2em 10em 7em;
         backdrop-filter: blur(2em);
         padding: 1em;
         border-radius: 2em;
@@ -209,23 +202,24 @@
         background-repeat: no-repeat;
         display: flex;
         background-size: 100%;
-        height: 20em;
-        width: 20em;
+        height: 25em;
+        width: 25em;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
     #triangle {
         background-image: url("assets/blueTriangle.png");
+        margin-top: 9em;
     }
     #square {
         background-image: url("assets/yellowSquare.png");
-        float: right;
-        margin-right: 1.5em;
+        
     }
     #circle {
         background-image: url("assets/redCircle.png");
-        margin-left: 1.7em;
+        margin: 19em 10em 10em 10em;
+        /* float: right; */
     }
 
     .paragraphShapes {
@@ -251,9 +245,9 @@
         text-shadow: .06em .06em black;
     }
     #carouselMain {
-        width: 23.4em;
+        width: 50em;
         text-align: center;
-        margin: 3em 0 3em 0;
+        margin: 3em 5em 3em 0;
 
     }
 
@@ -262,7 +256,7 @@
         text-shadow: .06em .06em black;
         list-style-type: none;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
         margin: 4em 2.5em 6em 1em;
     }
     /* #switcher {
