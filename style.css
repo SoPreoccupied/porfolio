@@ -108,7 +108,7 @@
     h4 {
         color: white;
         text-align: center;
-        font-size: 3em;
+        font-size: 2.5em;
         text-shadow: .06em .06em black; 
         margin-top: 2em;
     }
@@ -223,13 +223,13 @@
     h2 {
         color: white;
         text-align: center;;
-        margin: -2em 10em 7em;
+        margin: -2em 15em 7em 14em;
         backdrop-filter: blur(2em);
         padding: 1em;
         border-radius: 2em;
         text-shadow: .06em .06em black;
     }
-
+    
     .shapes {
         background-repeat: no-repeat;
         display: flex;
@@ -242,7 +242,7 @@
     }
     #triangle {
         background-image: url("assets/blueTriangle.png");
-        margin-top: 9em;
+        margin: 9em 0 0 1em;
     }
     #square {
         background-image: url("assets/yellowSquare.png");
@@ -278,7 +278,6 @@
         width: 50em;
         text-align: center;
         margin: 3em 5em 3em 0;
-
     }
 
     #contactsContainer {
@@ -301,65 +300,22 @@
     }
 
     .socials li i {
-        margin: 10px;
+        margin: 20px;
     }
-
-    /* #contactPage ul {
-        color: white;
-        text-shadow: .06em .06em black;
-        list-style-type: none;
-        display: flex;
-        justify-content: space-around;
-        margin: 4em 2.5em 6em 1em;
-    } */
 
     h4 {
         color: white;
         text-align: left;
         font-size: 4em;
         text-shadow: .06em .06em black; 
-        margin: 7em 0 0 3.2em;
+        margin: 7em 0 0 2.7em;
     }
-
-    /* .skillSet {
-        color: white;
-        text-shadow: .06em .06em black;
-        list-style-type: none;
-        /* display: flex; */
-        /* justify-content: space-around; */
-        /* margin: 4em 2.5em 6em 1em;
-    } */ 
     .socials {
         color: white;
         text-shadow: .06em .06em black;
         list-style-type: none;
         /* margin: 4em 2.5em 5em 1em; */
     }
-
-
-
-    
-    /* #switcher {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-      #switcher li {
-        float: left;
-        width: 30px;
-        height: 30px;
-        margin: 0 15px 15px 0;
-        border-radius: 30px;
-        border: 3px solid black;
-      } */
-      
-      /* #darkButton {
-        background: gray;
-      }
-      #lightButton {
-        background: white;
-      } */
 }
 /* @media (min-width:1025px) { big landscape tablets, laptops, and desktops } */
 /* @media (min-width:1281px) { hi-res laptops and desktops } */ 

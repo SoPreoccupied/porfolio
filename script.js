@@ -1,17 +1,35 @@
-//Update theme changer from lab to project
-//darkMode
-$("#darkButton").click(function(){
-    // $("body").css(background-image url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg"));
-    $("body").css("color", "white");
-  });
-
-//lightMode
-$("#lightButton").click(function(){
-    $("body").css("background", "white")
-    $("body").css("color", "black"); 
+//Social Functions for Desktop
+$(".socials li a i").on("mouseover", (event) => {
+  $(event.target).addClass("fa-bounce");
+});
+$(".socials li a i").on("mouseout", (event) => {
+  $(event.target).removeClass("fa-bounce");
 });
 
-// css for theme changer
+//Carousel Stop When Hover
+$('.carousel').carousel("hover")
+
+
+
+//Finish theme changer in a future version of this project 
+//Use font awesome light bulb and make it a toggle button placed center nav
+
+
+//Update this theme changer from lab to project
+
+//darkMode
+// $("#darkButton").click(function(){
+//     $("body").css(background-image url(""));
+//     $("body").css("color", "white");
+//   });
+
+//lightMode
+// $("#lightButton").click(function(){
+//     $("body").css("background", "white")
+//     $("body").css("color", "black"); 
+// });
+
+//CSS for theme changer
 
 // body {
 //     margin: 3em;
@@ -29,12 +47,11 @@ $("#lightButton").click(function(){
 //     margin: .5em 0;
 //   }
 
+//HTML for theme changer
 
+{/* <ul id="switcher">
+  <i class="fa-solid fa-lightbulb"></i>
+    <li id="darkButton"></li>
+    <li id="lightButton"><i class="fa-solid fa-sun"></i></li>
+</ul> */}
 
-//Social Functions for Desktop
-$(".socials li a i").on("mouseover", (event) => {
-  $(event.target).addClass("fa-bounce");
-});
-$(".socials li a i").on("mouseout", (event) => {
-  $(event.target).removeClass("fa-bounce");
-});
