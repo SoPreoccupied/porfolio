@@ -2,6 +2,8 @@
 * {
     font-family: 'Lexend Deca', sans-serif;
 }
+
+
         body {
         background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
         background-size: 100% 100%;
@@ -115,9 +117,15 @@
         text-shadow: .06em .06em black;
         list-style-type: none;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         margin: 4em 2.5em 6em 1em;
     }
+
+    .skillSet i {
+        font-size: 12vw;
+    }
+
+
 
     .socials {
         color: white;
@@ -125,7 +133,18 @@
         list-style-type: none;
         display: flex;
         justify-content: space-around;
-        margin: 4em 2.5em 6em 1em;
+        padding-inline-start: 0;
+        margin: 4em auto 6em auto;
+    }
+
+    .socials li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .socials li i {
+        font-size: 12vw;
+        margin: 0;
     }
 
     /* #switcher {
@@ -182,11 +201,12 @@
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
+        margin-top: 25em;
         }
 
     #profilePicture {
     height: 21em;
-    border: 10px solid transparent;
+    border: 15px solid transparent;
     background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.2),hsl(234, 100%, 50%));
     background-origin: border-box; 
     border-radius: 50% 0%;
@@ -230,10 +250,8 @@
     }
     #circle {
         background-image: url("assets/redCircle.png");
-        margin: 19em 10em 10em 10em;
-        /* float: right; */
+        margin-left: 12em;
     }
-
     .paragraphShapes {
         font-weight: bold;
         font-size: 2em;
@@ -256,43 +274,69 @@
         color: green;
         text-shadow: .06em .06em black;
     }
-    #carouselMain {
+    #carouselContainer {
         width: 50em;
         text-align: center;
         margin: 3em 5em 3em 0;
 
     }
-    .contactPage {
+
+    #contactsContainer {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
+        /* might need no wrap */
         flex-wrap: wrap;
-        align-items: center;
+        
+        align-items: baseline;
+        margin: 0 5em 2em 5em;
+    }
+    li {
+        display: flex;
+        align-self: stretch;
     }
 
-    h4 {
-        color: white;
-        text-align: center;
-        font-size: 4em;
-        text-shadow: .06em .06em black; 
+    .skillSet i, .socials li i {
+        font-size: 3em;
     }
 
-    .skillSet {
+    .socials li i {
+        margin: 10px;
+    }
+
+    /* #contactPage ul {
         color: white;
         text-shadow: .06em .06em black;
         list-style-type: none;
         display: flex;
         justify-content: space-around;
         margin: 4em 2.5em 6em 1em;
+    } */
+
+    h4 {
+        color: white;
+        text-align: left;
+        font-size: 4em;
+        text-shadow: .06em .06em black; 
+        margin: 7em 0 0 3.2em;
     }
+
+    /* .skillSet {
+        color: white;
+        text-shadow: .06em .06em black;
+        list-style-type: none;
+        /* display: flex; */
+        /* justify-content: space-around; */
+        /* margin: 4em 2.5em 6em 1em;
+    } */ 
     .socials {
         color: white;
         text-shadow: .06em .06em black;
         list-style-type: none;
-        display: flex;
-        justify-content: flex-end;
-        margin: 4em 2.5em 6em 1em;
+        /* margin: 4em 2.5em 5em 1em; */
     }
+
+
 
     
     /* #switcher {
