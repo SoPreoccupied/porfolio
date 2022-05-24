@@ -1,157 +1,221 @@
 /* Mobile first design */
+
 * {
     font-family: 'Lexend Deca', sans-serif;
 }
-        body {
-        background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
-        background-size: 100% 100%;
-        min-height: 100%;
-        resize: both; 
-        overflow: scroll;  
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-color: black;
-    }
-    #aboutContainer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 5em 5em 0 5em;
-    }
-    #carouselContainer {
-        width: 25em;
-    }
-    .carousel-caption {
-        background-color: rgba(0,0,0,0.4);
-        -webkit-backdrop-filter: blur(2em);
-        backdrop-filter: blur(2em);
-        width: 25em;
-        text-align: center;
-        top: 11em;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-    h3 {
-        font-size: 1.4em;
-        text-shadow: .06em .06em black; 
-    }
-    p {
-        font-size: .9em;
-        text-shadow: .09em .09em black; 
-    }
-     #projectsContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 2em;
-    }
-    #profilePicture {
+body {
+    background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
+    background-size: 100% 100%;
+    min-height: 100%;
+    resize: both; 
+    overflow: scroll;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+.shapes {
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: 100%;
+    height: 20em;
+    width: 20em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4em;
+}
+/* Text Inside Paragraph */
+.paragraphShapes {
+    font-weight: bold;
+    font-size: 2em;
+    width: 120px;
+    margin: 6em;
+    text-align: center;
+}
+
+
+/* About Section */
+
+#aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5em 5em 0 5em;
+}
+#profilePicture {
     height: 15em;
     border: 10px solid transparent;
     background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.2),hsl(234, 100%, 50%));
     background-origin: border-box; 
     border-radius: 50% 0%;
     margin: 3em 5em;
-    }
-    h1 {
-        color: white;
-        text-align: center;
-        font-size: 4em;
-        text-shadow: .06em .06em black; 
-    }
-    h2 {
-        color: white;
-        text-align: center;
-        -webkit-backdrop-filter: blur(2em);
-        backdrop-filter: blur(2em);
-        padding: 1em;
-        border-radius: 2em;
-        text-shadow: .06em .06em black;
-    }
-    .shapes {
-        background-repeat: no-repeat;
-        display: flex;
-        background-size: 100%;
-        height: 20em;
-        width: 20em;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 4em;
-    }
-    #triangle {
-        background-image: url("assets/blueTriangle.png");
-    }
-    #square {
-        background-image: url("assets/yellowSquare.png");
-    }
-    #circle {
-        background-image: url("assets/redCircle.png");
-        margin-left: 1.5em;
-    }
-    .paragraphShapes {
-        font-weight: bold;
-        font-size: 2em;
-        width: 120px;
-        margin: 6em;
-        text-align: center;
-    }
-    #paragraphTriangle {
-        color: orange;
-        text-shadow: .06em .06em black;
-        margin-top: 5em;
-    }
-    #paragraphSquare {
-        color: purple;
-        text-shadow: .04em .04em black;
-    }
-    #paragraphCircle {
-        color: green;
-        text-shadow: .06em .06em black;
-    }
-    h4 {
-        color: white;
-        text-align: center;
-        font-size: 2.5em;
-        text-shadow: .06em .06em black; 
-        margin-top: 2em;
-    }
-    .skillSet {
-        color: white;
-        text-shadow: .06em .06em black;
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        margin: 4em 2.5em 6em 1em;
-    }
-    .skillSet i {
-        font-size: 12vw;
-    }
-    .socials {
-        color: white;
-        text-shadow: .06em .06em black;
-        list-style-type: none;
-        display: flex;
-        justify-content: space-around;
-        padding-inline-start: 0;
-        margin: 4em auto 6em auto;
-    }
-    .socials li {
-        margin: 0;
-        padding: 0;
-    }
-    .socials li i {
-        font-size: 12vw;
-        margin: 0;
-    }
+}
+/* Name */
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: .06em .06em black; 
+}
+/* About Me Paragraph */
+h2 {
+    color: white;
+    text-align: center;
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+    padding: 1em;
+    text-shadow: .06em .06em black;
+    border-radius: 2em;
+}
+#triangle {
+    background-image: url("assets/blueTriangle.png");
+}
+#paragraphTriangle {
+    color: orange;
+    text-shadow: .06em .06em black;
+    margin-top: 5em;
+}
 
 
- /* { tablet, landscape iPad, lo-res laptops ands desktops } */
+/* Project Section */
+
+#projectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2em;
+}
+#square {
+    background-image: url("assets/yellowSquare.png");
+}
+#paragraphSquare {
+    color: purple;
+    text-shadow: .04em .04em black;
+}
+#carouselContainer {
+    width: 25em;
+}
+/* Features of Internal Carousel Banner */
+.carousel-caption {
+    background-color: rgba(0,0,0,0.4);
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+    width: 25em;
+    text-align: center;
+    top: 11em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* Carousel Headline */
+h3 {
+    font-size: 1.4em;
+    text-shadow: .06em .06em black; 
+}
+/* Carosel Description */
+p {
+    font-size: .9em;
+    text-shadow: .09em .09em black; 
+}
+
+
+/* Contact Section */
+
+#contactsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: 0 5em 2em 5em;
+}
+/* My Skillset Heading */
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: .06em .06em black; 
+    margin-top: 2em;
+}
+/* Skills Icons */
+.skillSet {
+    color: white;
+    text-shadow: .06em .06em black;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 4em 2.5em 6em 1em;
+}
+/* More Specific Skills Icons */
+.skillSet i {
+    font-size: 12vw;
+}
+#circle {
+    background-image: url("assets/redCircle.png");
+    margin-left: 1.5em;
+}
+#paragraphCircle {
+    color: green;
+    text-shadow: .06em .06em black;
+}
+/* Socials Icons */
+.socials {
+    color: white;
+    text-shadow: .06em .06em black;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0;
+    margin: 4em auto 6em auto;
+}
+/* More Specific Socials Icons */
+.socials li {
+    margin: 0;
+    padding: 0;
+}
+/* MOST Specific Socials Icons */
+.socials li i {
+    font-size: 12vw;
+    margin: 0;
+}
+
+
+ /* For use with tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px) {
+
+    .shapes {
+        height: 25em;
+        width: 25em;
+    }
+
+    
+    /* About Section */
+
+    #aboutContainer {
+        flex-wrap: nowrap;
+    }
+
+    #profilePicture {
+        height: 21em;
+        border: 15px solid transparent;
+    }
+    /* Name */
+    h1 {
+        font-size: 6em;
+        flex-grow: 2; 
+    }
+    /* About Me Paragraph */
+    /* h2 {
+        margin: 1em 15em 7em 14em;
+    } */
+    #triangle {
+        margin: 5em 0 0 1em;
+    }
+
+
+    /* Project Section */
 
     #projectsContainer {
         display: flex;
@@ -161,65 +225,64 @@
         align-items: center;
         margin-top: 25em;
     }
-    #profilePicture {
-        height: 21em;
-        border: 15px solid transparent;
-    }
-    h1 {
-        font-size: 6em;
-        flex-grow: 2; 
-    }
-    h2 {
-        margin: 1em 15em 7em 14em;
-    }
-    .shapes {
-        height: 25em;
-        width: 25em;
-    }
-    #triangle {
-        margin: 5em 0 0 1em;
-    }
-    #square {
+     #square {
         margin-left: 8em;
-    }
-    #circle {
-        margin-left: 11em;
     }
     #paragraphSquare {
         font-size: 2.2em;
-    }
-    #paragraphCircle {
-        font-size: 2.4em;
-        position: absolute;
     }
     #carouselContainer {
         width: 50em;
         margin: 3em 5em 3em 0;
     }
+    /* Features of Internal Carousel Banner */
     .carousel-caption {
         width: 50em;
         top: 25em;
     }
-    #contactsContainer {
-        display: flex;
-        align-items: baseline;
-        margin: 0 5em 2em 5em;
-    }
-    .skillSet i, .socials li i {
-        font-size: 3em;
-    }
-    .socials li i {
-        margin: 20px;
-    }
+    /* Carousel Headline */
     h3 {
         font-size: 2.5em;
     }
+    /* Carosel Description */
     p {
         font-size: 1.5em;
     }
+
+
+    /* Contact Section */
+    
+    #contactsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        /* might need no wrap */
+        flex-wrap: nowrap;
+
+        align-items: baseline;
+        /* margin: 0 5em 2em 5em; */
+    }
+    /* My Skillset Heading */
     h4 {
         text-align: left;
         font-size: 4em;
         margin: 7em 0 0 2.7em;
+    }
+    /* More Specific Skills Icons && MOST Specific Socials Icons */ 
+    .skillSet i, .socials li i {
+        font-size: 3em;
+    }
+    #circle {
+        /* margin-left: 11em; */
+    }
+    #paragraphCircle {
+        font-size: 2.4em;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* MOST Specific Socials Icons */
+    .socials li i {
+        margin: 20px;
     }
 }

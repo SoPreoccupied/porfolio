@@ -1,4 +1,5 @@
-//Social Functions for Desktop
+//Social Function for Desktop "bounce when hover"
+
 $(".socials li a i").on("mouseover", (event) => {
   $(event.target).addClass("fa-bounce");
 });
@@ -6,8 +7,10 @@ $(".socials li a i").on("mouseout", (event) => {
   $(event.target).removeClass("fa-bounce");
 });
 
-//Carousel Stop When Hover
+
+//Carousel Stop Slides When Hover
 $('.carousel').carousel("hover")
+
 
 
 
