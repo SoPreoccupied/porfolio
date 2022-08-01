@@ -8,7 +8,7 @@ Welcome to my [Portfolio!](https://gabriellewalsh.com/)
 * CSS3
 * JavaScript
 * React
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
 
 ### What's Next?
 
