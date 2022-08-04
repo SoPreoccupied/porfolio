@@ -2,6 +2,8 @@
 
 * {
     font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    text-shadow: .06em .06em black; 
 }
 body {
     background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
@@ -11,75 +13,90 @@ body {
     background-attachment: fixed;
     background-color: black;
 }
-.shapes {
-    position: relative;
+/* .shapes {
     background-size: 100%;
-    /* height: 20em;
-    width: 20em; */
-
-    /* margin: 4em; */
-}
+    height: 20em;
+    width: 20em; 
+ } */
 
 /* About Section */
 
-#aboutContainer {
+/* #aboutContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     /* margin: 5em 5em 0 5em; */
-}
+/* } */ 
+
 #profilePicture {
-    height: 15em;
+    height: 100px;
     border: 10px solid transparent;
     background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.2),hsl(234, 100%, 50%));
     background-origin: border-box; 
     border-radius: 50% 5%;
-    /* margin: 3em 5em; */
 }
+
+/* #profilePicture {
+    /* margin: 3em 5em; */
+/* } */ 
+
+#triangle {
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top:0;
+    /* background-image: url("assets/neonTriangle.svg"); */
+}
+
 /* Name */
 h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Name */
+/* h1 {
     color: white;
     text-align: center;
     font-size: 20vw;
     text-shadow: .06em .06em black; 
-}
+} */
+
 /* About Me Paragraph */
-h2 {
+/* h2 {
     color: white;
     text-align: center;
     -webkit-backdrop-filter: blur(2em);
     backdrop-filter: blur(2em);
     padding: 1em;
     text-shadow: .06em .06em black;
-}
-#triangle {
-    background-image: url("assets/neonTriangle.svg");
-}
+} */
 
 /* Project Section */
 
-#projectsContainer {
+/* #projectsContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     border-radius: 2em;
-}
+} */
+
 #square {
     background-image: url("assets/neonRectangle.svg");
 }
 
-#carouselContainer {
+/* #carouselContainer {
     /* width: 25em; */
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4);
     -webkit-backdrop-filter: blur(2em);
     backdrop-filter: blur(2em);
-}
+} */ 
 
 /* Features of Internal Carousel Banner */
-.carousel-text {
+/* .carousel-text {
     color : white;
     text-align: center;
     /* background-color: rgba(0, 0, 0, 0.4);
@@ -91,89 +108,92 @@ h2 {
     bottom: 0;
     left: 0;
     right: 0; */
-}
+/* } */ 
+
 /* Carousel Headline */
-h3 {
+/* h3 {
     font-size: 1.4em;
     text-shadow: .06em .06em black; 
-}
+} */
+
 /* Carosel Description */
-p {
+/* p {
     font-size: .9em;
     text-shadow: .09em .09em black; 
-}
+} */
 
 /* Skills Section */
 
-#skillsContainer {
+/* #skillsContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: baseline;
-}
+} */
 
 #star {
     background-image: url("assets/neonStar.svg");
 }
 
-
-/* Contact Section */
-
-#contactsContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: baseline;
-    /* margin: 0 5em 2em 5em; */
-}
-
-.fcf-label {
-    color: white;
-    font-size: 1.5em;
-    text-shadow: .09em .09em black; 
-  }
-
-#Name, #Email, #Message {
-    background-color: rgba(0, 200, 81, .4);
-    border: 3px solid rgba(0, 200, 81, .4);
-    border-radius: 25%;
-    backdrop-filter: blur(2em);
-    /* color: white; */
-    padding: 18px;
-}
-
-.fcf-form-group:focus {
-    border: 3em solid #ADFFAD;
-    padding: 20px;
-  }
-
-#fcf-button {
-    background-color: #ADFFAD;
-    border-radius: 50% 5%;
-    padding: 18px 18px 17px;
-}
-
-
 /* Skills Icons */
-.skillSet {
+/* .skillSet {
     color: white;
     text-shadow: .06em .06em black;
     list-style-type: none;
     display: flex;
     justify-content: center;
     /* margin: 4em 2.5em 6em 1em; */
-}
+/* } */ 
+
 /* More Specific Skills Icons */
-.skillSet i {
+/* .skillSet i {
     font-size: 12vw;
-}
+} */
+
+
+/* Contact Section */
+
+/* #contactsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    /* margin: 0 5em 2em 5em; */
+/* } */ 
+
 #circle {
     background-image: url("assets/neonCircle.svg");
     /* margin-left: 1.5em; */
 }
+/* 
+.fcf-label {
+    color: white;
+    font-size: 1.5em;
+    text-shadow: .09em .09em black; 
+  } */
+
+/* #Name, #Email, #Message {
+    background-color: rgba(0, 200, 81, .4);
+    border: 3px solid rgba(0, 200, 81, .4);
+    border-radius: 25%;
+    backdrop-filter: blur(2em);
+    /* color: white; */
+    /* padding: 18px;
+} */ 
+
+/* .fcf-form-group:focus {
+    border: 3em solid #ADFFAD;
+    padding: 20px;
+  } */
+
+/* #fcf-button {
+    background-color: #ADFFAD;
+    border-radius: 50% 5%;
+    padding: 18px 18px 17px;
+} */
 
 /* Socials Icons */
-.socials {
+/* .socials {
     color: white;
     text-shadow: .06em .06em black;
     list-style-type: none;
@@ -181,111 +201,111 @@ p {
     justify-content: space-around;
     padding-inline-start: 0;
     /* margin: 4em auto 6em auto; */
-}
+/* } */ 
 /* More Specific Socials Icons */
-.socials li {
+/* .socials li {
     /* margin: 0;
     padding: 0; */
-}
+/* } */ 
 /* MOST Specific Socials Icons */
-.socials li i {
+/* .socials li i {
     font-size: 12vw;
     /* margin: 0;*/
-}
+/* } */ 
 
- /* For use with tablet, landscape iPad, lo-res laptops ands desktops */
-@media (min-width:961px) {
+/* Desktop, and ipads */
+/* @media (min-width:641px) {
 
     .shapes {
         height: 25em;
         width: 25em;
-    }
+    } */
     
     /* About Section */
 
-    #aboutContainer {
+    /* #aboutContainer {
         flex-wrap: nowrap;
     }
 
     #profilePicture {
         height: 21em;
         border: 15px solid transparent;
-    }
+    } */
     /* Name */
-    h1 {
+    /* h1 {
         font-size: 6em;
         flex-grow: 2; 
-    }
+    } */
     /* About Me Paragraph */
     /* h2 {
         margin: 1em 15em 7em 14em;
     } */
-    #triangle {
+    /* #triangle {
         /* margin: 5em 0 0 1em; */
-    }
+    /* } */ 
 
 
     /* Project Section */
 
-    #projectsContainer {
+    /* #projectsContainer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
         /* margin-top: 25em; */
-    }
-     #square {
+    /* } */ 
+     /* #square {
         /* margin-left: 8em; */
-    }
+    /* } */ 
     
-    #carouselContainer {
+    /* #carouselContainer {
         width: 50em;
         /* margin: 3em 5em 3em 0; */
-    }
+    /* } */ 
     /* Features of Internal Carousel Banner */
-    .carousel-caption {
+    /* .carousel-caption {
         width: 50em;
         top: 25em;
-    }
+    } */
     /* Carousel Headline */
-    h3 {
+    /* h3 {
         font-size: 2.5em;
-    }
+    } */
     /* Carosel Description */
-    p {
+    /* p {
         font-size: 1.5em;
-    }
+    } */
 
 
     /* Contact Section */
     
-    #contactsContainer {
+    /* #contactsContainer {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         /* might need no wrap */
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap;
 
-        align-items: baseline;
+        align-items: baseline; */ 
         /* margin: 0 5em 2em 5em; */
-    }
+    /* } */
     /* My Skillset Heading */
-    h4 {
+    /* h4 {
         text-align: left;
         font-size: 4em;
         /* margin: 7em 0 0 2.7em; */
-    }
+    /* } */ 
     /* More Specific Skills Icons && MOST Specific Socials Icons */ 
-    .skillSet i, .socials li i {
+    /* .skillSet i, .socials li i {
         font-size: 3em;
-    }
+    } */
     /* #circle {
         margin-left: 11em;
     } */
 
     /* MOST Specific Socials Icons */
-    .socials li i {
+    /* .socials li i {
         /* margin: 20px; */
-    }
-}
+    /* }
+} */ 
