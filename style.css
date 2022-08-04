@@ -27,13 +27,13 @@ body {
     margin: 4em;
 }
 /* Text Inside Paragraph */
-.paragraphShapes {
+/* .paragraphShapes {
     font-weight: bold;
     font-size: 2em;
     width: 120px;
     margin: 6em;
     text-align: center;
-}
+} */
 
 
 /* About Section */
@@ -71,13 +71,13 @@ h2 {
     text-shadow: .06em .06em black;
 }
 #triangle {
-    background-image: url("assets/blueTriangle.png");
+    background-image: url("assets/neonTriangle.svg");
 }
-#paragraphTriangle {
+/* #paragraphTriangle {
     color: orange;
     text-shadow: .06em .06em black;
     margin-top: 5em;
-}
+} */
 
 
 /* Project Section */
@@ -90,12 +90,12 @@ h2 {
     border-radius: 2em;
 }
 #square {
-    background-image: url("assets/yellowSquare.png");
+    background-image: url("assets/neonRectangle.svg");
 }
-#paragraphSquare {
+/* #paragraphSquare {
     color: purple;
     text-shadow: .04em .04em black;
-}
+} */
 
 #carouselContainer {
     /* width: 25em; */
@@ -161,13 +161,13 @@ h4 {
     font-size: 12vw;
 }
 #circle {
-    background-image: url("assets/redCircle.png");
+    background-image: url("assets/neonCircle.svg");
     margin-left: 1.5em;
 }
-#paragraphCircle {
+/* #paragraphCircle {
     color: green;
     text-shadow: .06em .06em black;
-}
+} */
 /* Socials Icons */
 .socials {
     color: white;
