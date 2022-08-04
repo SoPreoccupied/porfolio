@@ -19,9 +19,7 @@
       <section id="aboutContainer">
         <img id="profilePicture" src="./assets/gabbylogomedium.png" alt="Gabrielle Walsh">
         <h1 id="person">Gabrielle Walsh</h1>
-        <div id="triangle" class="shapes">
-            <!-- <p id="paragraphTriangle" class="paragraphShapes">Hey! I'm glad you're here :)</p> -->
-        </div>
+        <div id="triangle" class="shapes"></div>
       </section> 
 
       <aside>
@@ -31,9 +29,7 @@
       </aside>
 
       <section id="projectsContainer">
-        <div id="square" class="shapes">
-          <!-- <p id="paragraphSquare" class="paragraphShapes">Some recent projects I've put together.</p> -->
-        </div>
+        <div id="square" class="shapes"></div>
         <div id="carouselContainer" class="carousel slide" data-ride="carousel">
           <!-- Carousel Slide -->
           <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> -->
@@ -76,8 +72,8 @@
             </a>
         </div>
     </section>
-      <h4>My Skillset</h4>
-      <section id="contactsContainer">
+      <section id="skillsContainer">
+        <div id="star" class="shapes"></div>
         <ul class="skillSet">
           <!-- HTML -->
           <li><i class="fa-brands fa-html5 fa-5x fa-beat-fade mx-5" style="--fa-animation-duration: 2s"></i></li>
@@ -86,21 +82,74 @@
           <!-- JavaScript -->
           <li><i class="fa-brands fa-js-square fa-5x fa-beat-fade mx-5" style="--fa-animation-duration: 2s"></i></li>
         </ul>
-            <div id="circle" class="shapes">
-                <!-- <p id="paragraphCircle" class="paragraphShapes">Let's get in touch!</p> -->
+      </section>
+      <section id="contactsContainer">
+            <div id="circle" class="shapes"></div>
+
+
+
+
+
+
+            <link href="contact-form.css" rel="stylesheet">
+
+            <div class="fcf-body">
+            
+                <div id="fcf-form">
+                <!-- <h3 class="fcf-h3">Contact us</h3> -->
+            
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                    
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                    </div>
+            
+                    <!-- <div class="fcf-credit" id="fcf-credit">
+                    Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+                    </div> -->
+            
+                </form>
+                </div>
+            
             </div>
+            
+
+
+
+
+
+
+
+
         <ul class="socials">
             <!-- Linkedin -->
-            <!-- #0e76a8 In light mode -->
                 <li><a style="color: #FFF" href="https://www.linkedin.com/in/gabrielle-walsh-se/" role="button" target="_blank"><i class="fab fa-linkedin-in fa-3x animated faa-slow" style="--fa-bounce-height: -45vh"></i></a></li>
             <!-- Google -->
-            <!-- #dd4b39 In light mode -->
                 <li><a style="color: #FFF" href="mailto:gabmwalsh@gmail.com" role="button" target="_blank"><i class="fa fa-envelope-o fa-3x animated faa-slow" style="--fa-bounce-height: -35vh"></i></a></li>
             <!-- Github -->
-            <!-- #4078c0 In light mode -->
                 <li><a style="color: #FFF" href="https://github.com/SoPreoccupied" role="button" target="_blank"><i class="fab fa-github fa-3x animated faa-slow" style="--fa-bounce-height: -25vh"></i></a></li>
             <!-- Slack -->
-            <!-- #4A154B In light mode -->
                 <li><a style="color: #FFF" href="https://app.slack.com/client/T0351JZQ0/D039PJQ2T6Y" role="button" target="_blank"><i class="fab fa-slack-hash fa-3x animated faa-slow" style="--fa-bounce-height: -15vh"></i></a></li>
         </ul> 
       </section>

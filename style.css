@@ -6,8 +6,6 @@
 body {
     background-image: url("assets/noita-digital-QZX8jbK1xEw-unsplash\ \(1\).jpg");
     background-size: 100% 100%;
-    min-height: 100%;
-    resize: both; 
     overflow: scroll;  
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,26 +13,12 @@ body {
 }
 .shapes {
     position: relative;
-    
-    background-repeat: no-repeat;
-    display: flex;
     background-size: 100%;
-    height: 20em;
-    width: 20em;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 4em;
-}
-/* Text Inside Paragraph */
-/* .paragraphShapes {
-    font-weight: bold;
-    font-size: 2em;
-    width: 120px;
-    margin: 6em;
-    text-align: center;
-} */
+    /* height: 20em;
+    width: 20em; */
 
+    /* margin: 4em; */
+}
 
 /* About Section */
 
@@ -44,7 +28,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin: 5em 5em 0 5em;
+    /* margin: 5em 5em 0 5em; */
 }
 #profilePicture {
     height: 15em;
@@ -52,13 +36,13 @@ body {
     background-image: radial-gradient(at bottom left,hsl(39, 100%, 50%),hsl(204, 0%, 100%,0.2),hsl(234, 100%, 50%));
     background-origin: border-box; 
     border-radius: 50% 5%;
-    margin: 3em 5em;
+    /* margin: 3em 5em; */
 }
 /* Name */
 h1 {
     color: white;
     text-align: center;
-    font-size: 4em;
+    font-size: 20vw;
     text-shadow: .06em .06em black; 
 }
 /* About Me Paragraph */
@@ -73,12 +57,6 @@ h2 {
 #triangle {
     background-image: url("assets/neonTriangle.svg");
 }
-/* #paragraphTriangle {
-    color: orange;
-    text-shadow: .06em .06em black;
-    margin-top: 5em;
-} */
-
 
 /* Project Section */
 
@@ -92,10 +70,6 @@ h2 {
 #square {
     background-image: url("assets/neonRectangle.svg");
 }
-/* #paragraphSquare {
-    color: purple;
-    text-shadow: .04em .04em black;
-} */
 
 #carouselContainer {
     /* width: 25em; */
@@ -129,6 +103,19 @@ p {
     text-shadow: .09em .09em black; 
 }
 
+/* Skills Section */
+
+#skillsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#star {
+    background-image: url("assets/neonStar.svg");
+}
+
 
 /* Contact Section */
 
@@ -137,16 +124,36 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: baseline;
-    margin: 0 5em 2em 5em;
+    /* margin: 0 5em 2em 5em; */
 }
-/* My Skillset Heading */
-h4 {
+
+.fcf-label {
     color: white;
-    text-align: center;
-    font-size: 2.5em;
-    text-shadow: .06em .06em black; 
-    margin-top: 2em;
+    font-size: 1.5em;
+    text-shadow: .09em .09em black; 
+  }
+
+#Name, #Email, #Message {
+    background-color: rgba(0, 200, 81, .4);
+    border: 3px solid rgba(0, 200, 81, .4);
+    border-radius: 25%;
+    backdrop-filter: blur(2em);
+    /* color: white; */
+    padding: 18px;
 }
+
+.fcf-form-group:focus {
+    border: 3em solid #ADFFAD;
+    padding: 20px;
+  }
+
+#fcf-button {
+    background-color: #ADFFAD;
+    border-radius: 50% 5%;
+    padding: 18px 18px 17px;
+}
+
+
 /* Skills Icons */
 .skillSet {
     color: white;
@@ -154,7 +161,7 @@ h4 {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    margin: 4em 2.5em 6em 1em;
+    /* margin: 4em 2.5em 6em 1em; */
 }
 /* More Specific Skills Icons */
 .skillSet i {
@@ -162,12 +169,9 @@ h4 {
 }
 #circle {
     background-image: url("assets/neonCircle.svg");
-    margin-left: 1.5em;
+    /* margin-left: 1.5em; */
 }
-/* #paragraphCircle {
-    color: green;
-    text-shadow: .06em .06em black;
-} */
+
 /* Socials Icons */
 .socials {
     color: white;
@@ -176,19 +180,18 @@ h4 {
     display: flex;
     justify-content: space-around;
     padding-inline-start: 0;
-    margin: 4em auto 6em auto;
+    /* margin: 4em auto 6em auto; */
 }
 /* More Specific Socials Icons */
 .socials li {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 /* MOST Specific Socials Icons */
 .socials li i {
     font-size: 12vw;
-    margin: 0;
+    /* margin: 0;*/
 }
-
 
  /* For use with tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px) {
@@ -196,9 +199,7 @@ h4 {
     .shapes {
         height: 25em;
         width: 25em;
-        
     }
-
     
     /* About Section */
 
@@ -220,7 +221,7 @@ h4 {
         margin: 1em 15em 7em 14em;
     } */
     #triangle {
-        margin: 5em 0 0 1em;
+        /* margin: 5em 0 0 1em; */
     }
 
 
@@ -232,17 +233,15 @@ h4 {
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-        margin-top: 25em;
+        /* margin-top: 25em; */
     }
      #square {
-        margin-left: 8em;
+        /* margin-left: 8em; */
     }
-    #paragraphSquare {
-        font-size: 2.2em;
-    }
+    
     #carouselContainer {
         width: 50em;
-        margin: 3em 5em 3em 0;
+        /* margin: 3em 5em 3em 0; */
     }
     /* Features of Internal Carousel Banner */
     .carousel-caption {
@@ -275,23 +274,18 @@ h4 {
     h4 {
         text-align: left;
         font-size: 4em;
-        margin: 7em 0 0 2.7em;
+        /* margin: 7em 0 0 2.7em; */
     }
     /* More Specific Skills Icons && MOST Specific Socials Icons */ 
     .skillSet i, .socials li i {
         font-size: 3em;
     }
-    #circle {
+    /* #circle {
         margin-left: 11em;
-    }
-    #paragraphCircle {
-        font-size: 2.4em;
-        position: absolute;
-        display: flex;
-        flex-wrap: wrap;
-    }
+    } */
+
     /* MOST Specific Socials Icons */
     .socials li i {
-        margin: 20px;
+        /* margin: 20px; */
     }
 }
